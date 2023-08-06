@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Josefin+Sans&family=Open+Sans&display=swap');
+/* 
+font-family: 'DM Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+body{
+  background: url('bg.jpg') center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.container{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 565px;
+  width:95%;
+  background: rgba(255,255,255,.5);
+  margin-left: 8px;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 5px black;
+}
+
+img{
+  margin-left: 110px;
+  margin-top: 30px;
+  width:100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 1px solid white;
+}
+
+p{
+  margin-left: 55px;
+  color: black;
+  font-weight: 600;
+  user-select:none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.prof{
+  margin-left: 75px;
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+  user-select:none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.social{
+  margin-left: 28px;
+  margin-top: 60px;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline;
+  margin-left: 10px;
+}
+i{
+  color:black;
+  user-select:none;
+}
+.quote{
+  margin-top: 30px;
+  margin-left: 55px;
+}
+button{
+  margin-left: 60px;
+  margin-top: 40px;
+  user-select:none;
+  border:none;
+  width:200px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 40px;
+  background: greenyellow;
+  transition: .5s all ease-in-out;
+  font-family: 'Josefin Sans', sans-serif;
+}
+button:hover{
+  background: green;
+}
+.bg{
+  clip-path: polygon(0 45%, 100% 0%, 100% 100%, 0% 100%);
+  background: rgba(255,255,255,.8);;
+  padding: 40px 0px 66px 0px;
+  border-radius: 0px 0px 20px 20px;
+}
+.plus{
+  position:absolute;
+  top:390px;
+  right:40px;
+  color:white;
+  font-size: 30px;
+  font-weight: 600;
+  background: greenyellow;
+  padding: 10px 15px 10px 15px;
+  border-radius: 30px;
+  text-decoration: none;
+  z-index: 1111;
+}
+.fa-plus{
+  color:white;
+}
